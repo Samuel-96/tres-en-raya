@@ -21,7 +21,7 @@ header{
 }
 
 .grid-tablero{
-  margin-top: 60px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 0fr);
   grid-template-rows: repeat(3, 0fr);
@@ -41,6 +41,7 @@ header{
 .cuadricula[data-index="8"] { grid-area: 3 / 3 / 4 / 4; } 
 
 .cuadricula{
+  padding: 1em;
   border: 2px solid;
   border-color: rgb(35, 52, 72);
   text-align: center;
@@ -48,6 +49,24 @@ header{
   width: 150px;
   height: 150px;
   cursor: pointer;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
+
+.reset-button{
+  text-align: center;
+}
+
+button{
+  width: 150px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: rgb(25, 65, 134);
+  margin-top: 15px;
+  text-align: center;
+  color: #d8d7d7;
+  height: 60px;
+  font-size: 30px;
 }
 
 footer{
